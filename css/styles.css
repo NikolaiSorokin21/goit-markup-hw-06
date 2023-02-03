@@ -749,6 +749,21 @@ body {
 .modal-button:focus .nodal-icon {
   fill: var(--hero-text-color);
 }
+
+.modal-name {
+  padding: 72px 24px 0;
+}
+.modal-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+
 /**
   |============================
   | Subscribe form
