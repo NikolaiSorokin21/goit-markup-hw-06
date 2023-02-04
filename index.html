@@ -437,6 +437,11 @@
     <!-- modal -->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
+            <button class="modal-button" data-modal-close type="button">
+                <svg class="modal-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
             <p class="modal-text">Leave your contacts and we will call you back</p>
             <form class="modal-form">
                 <label class="modal-name">
@@ -474,20 +479,15 @@
                             </span> -->
                     </span>
                 </label>
-                <label class="modal-name">
+                <label class="modal-name-area">
                     <span class="modal-description">Comment</span>
                     <textarea class="modal-area" name="user_message" placeholder="Text input"></textarea>
                 </label>
                 <input class="modal-form-check visually-hidden" id="user-polisy" type="checkbox" name="user_polisy">
                 <label class="modal-form-policy" for="user-polisy">I accept the terms and conditions of the&nbsp;<a
-                        href="">Privacy Policy</a></label>
+                        class="policy-link" href="">Privacy Policy</a></label>
                 <button class="send-btn" type="submit">Send</button>
             </form>
-            <button class="modal-button" data-modal-close type="button">
-                <svg class="modal-icon" width="24" height="24">
-                    <use href="./images/icons.svg#icon-close"></use>
-                </svg>
-            </button>
         </div>
     </div>
     <script src="./js/modal.js"></script>
