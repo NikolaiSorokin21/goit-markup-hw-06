@@ -956,13 +956,15 @@ body {
 
 .subscribe-icon {
   display: block;
-  fill: currentColor;
+  fill: var(--button-text-color);
 }
+
 .subscribe-button:hover,
 .subscribe-button:focus {
   border-color: var(--button-click-color);
   background-color: var(--button-click-color);
 }
+
 .subcribe-input:focus {
   border-color: var(--button-text-color);
   outline: none;
