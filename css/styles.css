@@ -938,8 +938,6 @@ body {
   display: flex;
   gap: 16px;
   align-items: center;
-  min-width: 165px;
-  min-height: 40px;
   padding: 8px 24px;
   border: none;
   border-radius: 4px;
