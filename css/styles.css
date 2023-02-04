@@ -955,8 +955,7 @@ body {
 }
 
 .subscribe-icon {
-  display: block;
-  fill: var(--button-text-color);
+  fill: currentColor;
 }
 
 .subscribe-button:hover,
