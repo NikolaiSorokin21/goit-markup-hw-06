@@ -928,12 +928,18 @@ body {
   background-color: var(--bgc-dark);
   color: var(--button-text-color);
   font-size: 12px;
-  font-family: Roboto;
   line-height: calc(24 / 12);
   letter-spacing: 0.04em;
-  text-align: left;
   transition: border-color var(--anim-cubic);
 }
+
+.subcribe-input::placeholder {
+  font-size: 12px;
+  line-height: calc(24 / 12);
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .subscribe-button {
   display: flex;
   gap: 16px;
