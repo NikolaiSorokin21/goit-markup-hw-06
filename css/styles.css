@@ -881,7 +881,8 @@ body {
   color: var(--bgc-dark);
   cursor: pointer;
   transition: background-color var(--anim-cubic),
-    background-image var(--anim-cubic), border-color var(--anim-cubic);
+    background-image var(--anim-cubic), border-color var(--anim-cubic),
+    box-shadow var(--anim-cubic);
   /* box-shadow var(--anim-cubic); */
 }
 
