@@ -937,7 +937,6 @@ body {
 .subscribe-button {
   display: flex;
   gap: 16px;
-  justify-content: center;
   align-items: center;
   min-width: 165px;
   min-height: 40px;
