@@ -857,7 +857,7 @@ body {
 
 .send-btn:hover,
 .send-btn:focus {
-  background-color: var(--button-click-color);
+  background-color: var(, --button-click-color);
 }
 
 .modal-form-policy {
@@ -883,7 +883,6 @@ body {
   transition: background-color var(--anim-cubic),
     background-image var(--anim-cubic), border-color var(--anim-cubic),
     box-shadow var(--anim-cubic);
-  /* box-shadow var(--anim-cubic); */
 }
 
 .modal-form-check:checked + .modal-form-policy::before {
