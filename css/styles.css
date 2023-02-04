@@ -3,7 +3,7 @@
   --bgc-dark: #2e2f42;
   --bgc-light: #f4f4fd;
   --bgc-image: #e7e9fc;
-  /* text color */
+  /* Text color */
   --hero-text-color: #ffffff;
   --accent-color: #4d5ae5;
   --button-text-color: #ffffff;
@@ -13,15 +13,23 @@
   --secondary-text-color: #434455;
   --border: #8e8f99;
 
-  /* font family */
+  /* Button Color */
+
+  /* f0nt family */
   --primery-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
 
-  /* OTHER */
+  /* Other*/
   --col-gap: 24px;
   --row-gap: 48px;
   --anim-cubic: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+/**
+  |============================
+  | Visuaally hidden
+  |============================
+*/
 
 .visually-hidden {
   position: absolute;
@@ -36,10 +44,15 @@
   white-space: nowrap;
   clip-path: inset(100%);
 }
+/**
+  |============================
+  | Visually Hidden
+  |============================
+*/
 
 /**
   |============================
-  | body
+  | Body
   |============================
 */
 body {
@@ -189,7 +202,7 @@ body {
   width: 100%;
   height: 4px;
   border-radius: 2px;
-  background-color: var(--button-click-color);
+  background-color: var(--accent-color);
 }
 
 /* NAV-ITEM margin */
@@ -654,7 +667,6 @@ body {
 }
 
 .overlay-text {
-  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -974,6 +986,7 @@ body {
 
 .subscribe-icon {
   fill: currentColor;
+  animation-name: plane;
 }
 
 .subscribe-button:hover,
